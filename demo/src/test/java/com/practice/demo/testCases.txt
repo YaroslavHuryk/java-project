@@ -1,0 +1,28 @@
+POST http://localhost:8081/api/add
+Authorization Basic dXNlcjp1c2Vy  
+{
+“id”:”1”,
+“name”:”Simon”,
+“email”:”simon@gmail.com”
+}
+
+GET http://localhost:8081/api/all
+Authorization Basic dXNlcjp1c2Vy  
+
+PUT http://localhost:8081/api/change
+Authorization Basic dXNlcjp1c2Vy  
+{
+“id”:”1”,
+“name”:”Ihor”,
+“email”:”simon@gmail.com”
+}
+
+GET http://localhost:8081/api/takesome
+Authorization Basic dXNlcjp1c2Vy  
+Parameters
+Id : 1
+
+DELETE http://localhost:8081/api/delete
+Authorization Basic dXNlcjp1c2Vy  
+Parameters
+Id : 1 
